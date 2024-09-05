@@ -1,3 +1,47 @@
+# Week1: Progress Report
+
+### **Week of 08/26/2024**
+
+### **Reflections**
+
+**What I Learned:**
+
+This week, I focused on learning the basics of the Kuka KR 6 R900-2 Agilus Robots, nicknamed Lucy and Ethel at jacobs. I explored their mechanical and software interfaces, essential for precise automation tasks.
+
+**How I Learned It:**
+
+My learning involved hands-on workshops and peer discussions, which helped me understand the robots' capabilities and limitations.
+
+**Assessment of Work:**
+
+My work with the robots is at a beginner stage. I've controlled the arm to do basic task and am exploring more complex operations.
+
+**Challenges Encountered:**
+
+I tried using a robotic arm to draw my jewelry brand's logo. The result was slightly off due to the pen's tip not being fine enough for detailed line designs.
+
+![Kuka.jpeg](Week1%20Progress%20Report%205c851128bf184b119a1d9a574f6469e8/Kuka.jpeg)
+
+**Future Directions:**
+
+This experience has shown the importance of matching the right tools with robotic systems for precision tasks. It will guide my future projects requiring precise robotic interactions.
+
+**Speculations**
+
+**Future Direction for the Tools:**
+
+I believe modifying a robotic arm to include a 3D printer extruder could allow printing on uneven surfaces, transforming how we use 3D printing in today’s manufacturing.
+
+**Future Direction for the Work:**
+
+Using the Omax Waterjet Cutter has inspired me to pursue designs that were previously too complex due to material constraints, thanks to its precise cutting capabilities.
+
+![Jet.jpeg](Week1%20Progress%20Report%205c851128bf184b119a1d9a574f6469e8/Jet.jpeg)
+
+
+
+
+
 # Hello DES INV 202 Student!
 Welcome to your new GitHub repository! 
 
