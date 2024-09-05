@@ -20,7 +20,7 @@ My work with the robots is at a beginner stage. I've controlled the arm to do ba
 
 I tried using a robotic arm to draw my jewelry brand's logo. The result was slightly off due to the pen's tip not being fine enough for detailed line designs.
 
-![Kuka.jpeg](Week1%20Progress%20Report%205c851128bf184b119a1d9a574f6469e8/Kuka.jpeg)
+<img width="300" alt="Kuka" src="assets/Kuka.jpeg">
 
 **Future Directions:**
 
@@ -36,7 +36,7 @@ I believe modifying a robotic arm to include a 3D printer extruder could allow p
 
 Using the Omax Waterjet Cutter has inspired me to pursue designs that were previously too complex due to material constraints, thanks to its precise cutting capabilities.
 
-![Jet.jpeg](Week1%20Progress%20Report%205c851128bf184b119a1d9a574f6469e8/Jet.jpeg)
+<img width="300" alt="Jet" src="assets/Jet.jpeg">
 
 
 
