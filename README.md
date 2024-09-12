@@ -10,17 +10,17 @@ I managed to modify the parameters and "baked" a new model by experimenting with
 
 <img width="500" alt="rhino2" src="assets/rhino2.png">
 
-<img width="500" alt="rhino2" src="assets/rhino2.png">
+<img width="500" alt="gh1" src="assets/gh1.png">
 
-<img width="500" alt="rhino2" src="assets/rhino2.png">
+<img width="500" alt="gh2" src="assets/gh2.png">
 
 I then drew a diagram illustrating the logic flow behind the phone stand, which clarified the process.
 
-<img width="500" alt="rhino2" src="assets/rhino2.png">
+<img width="500" alt="diagram" src="assets/diagram.png">
 
 In addition, I also followed another youtube tutorial and made a parametric box by using Grasshopper. It solidifies my understanding of parametric design and the logic flow behind it.
 
-<img width="500" alt="rhino2" src="assets/rhino2.png">
+<img width="500" alt="parametric_box" src="assets/parametric_box.png">
 
 
 
