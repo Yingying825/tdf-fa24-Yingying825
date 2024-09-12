@@ -8,7 +8,7 @@ Following the tutorial, I practiced basic Rhino modeling before experimenting wi
 
 I managed to modify the parameters and "baked" a new model by experimenting with the phone stand file. The process helped me understand the underlying logic of parametric design. 
 
-![Screenshot 2024-09-09 022811.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_022811.png)
+<img width="300" alt="rhino2" src="assets/rhino2.png">
 
 ![Screenshot 2024-09-09 023925.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_023925.png)
 
