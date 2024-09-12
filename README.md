@@ -4,23 +4,23 @@
 
 Following the tutorial, I practiced basic Rhino modeling before experimenting with the Grasshopper file for a phone stand. 
 
-<img width="300" alt="rhino1" src="assets/rhino1.jpeg">
+<img width="500" alt="rhino1" src="assets/rhino1.jpeg">
 
 I managed to modify the parameters and "baked" a new model by experimenting with the phone stand file. The process helped me understand the underlying logic of parametric design. 
 
-<img width="300" alt="rhino2" src="assets/rhino2.png">
+<img width="500" alt="rhino2" src="assets/rhino2.png">
 
-![Screenshot 2024-09-09 023925.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_023925.png)
+<img width="500" alt="rhino2" src="assets/rhino2.png">
 
-![Screenshot 2024-09-09 033039.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_033039.png)
+<img width="500" alt="rhino2" src="assets/rhino2.png">
 
 I then drew a diagram illustrating the logic flow behind the phone stand, which clarified the process.
 
-![Frame 1.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Frame_1.png)
+<img width="500" alt="rhino2" src="assets/rhino2.png">
 
 In addition, I also followed another youtube tutorial and made a parametric box by using Grasshopper. It solidifies my understanding of parametric design and the logic flow behind it.
 
-![Screenshot 2024-09-12 014538.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-12_014538.png)
+<img width="500" alt="rhino2" src="assets/rhino2.png">
 
 
 
