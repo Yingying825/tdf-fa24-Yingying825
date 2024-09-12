@@ -1,3 +1,30 @@
+# Week2: Progress Report
+
+### **Week of 09/12/2024**
+
+Following the tutorial, I practiced basic Rhino modeling before experimenting with the Grasshopper file for a phone stand. 
+
+![Screenshot 2024-09-08 183933.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-08_183933.png)
+<img width="300" alt="Kuka" src="assets/Kuka.jpeg">
+
+I managed to modify the parameters and "baked" a new model by experimenting with the phone stand file. The process helped me understand the underlying logic of parametric design. 
+
+![Screenshot 2024-09-09 022811.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_022811.png)
+
+![Screenshot 2024-09-09 023925.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_023925.png)
+
+![Screenshot 2024-09-09 033039.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-09_033039.png)
+
+I then drew a diagram illustrating the logic flow behind the phone stand, which clarified the process.
+
+![Frame 1.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Frame_1.png)
+
+In addition, I also followed another youtube tutorial and made a parametric box by using Grasshopper. It solidifies my understanding of parametric design and the logic flow behind it.
+
+![Screenshot 2024-09-12 014538.png](Week2%20Progress%20Report%20962d306cce1b42e4a02a5a6c442d082c/Screenshot_2024-09-12_014538.png)
+
+
+
 # Week1: Progress Report
 
 ### **Week of 08/26/2024**
