@@ -4,7 +4,7 @@
 
 **Exploring Advanced Design Techniques:**
 
-<img width="500" alt="voronoi" src="assets/voroni.jpg">
+<img width="500" alt="voronoi" src="assets/voronoi.jpg">
 
 This week, I expanded my technical skills by learning how to use Voronoi diagrams within Rhino Grasshopper. This technique allowed me to create more complex and visually appealing designs, which adds a new dimension to my work. 
 
