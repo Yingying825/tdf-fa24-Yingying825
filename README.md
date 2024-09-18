@@ -4,19 +4,19 @@
 
 **Exploring Advanced Design Techniques:**
 
-<img width="500" alt="voronoi" src="assets/voroni.jpeg">
+<img width="500" alt="voronoi" src="assets/voroni.jpg">
 
 This week, I expanded my technical skills by learning how to use Voronoi diagrams within Rhino Grasshopper. This technique allowed me to create more complex and visually appealing designs, which adds a new dimension to my work. 
 
 **Experimenting with Resin Printing:**
 
-<img width="500" alt="resin_wash" src="assets/resin_wash.jpeg">
+<img width="500" alt="resin_wash" src="assets/resin_wash.jpg">
 
 I conducted my first trial with resin printing myself, which was an exciting, albeit time-consuming, process. Despite the challenges, mastering this technique was rewarding. The hands-on experience also taught me about the different physical properties of various resin materials. The resin I chose required multiple washes post-printing, adding to the complexity but enhancing the final product's quality.
 
 **Utilizing Markforged Machine:**
 
-<img width="500" alt="markforged" src="assets/markforged.jpeg">
+<img width="500" alt="markforged" src="assets/markforged.jpg">
 
 Additionally, I experimented with the Markforged machine to print using carbon fiber nylon filament. This was particularly intriguing as it introduced me to the capabilities and potential of printing with reinforced materials, which could be crucial for future robust design applications.
 
@@ -26,7 +26,7 @@ One of the setbacks this week was my attempt to model and print a 3D hinge with 
 
 **Ongoing Projects and Plans:**
 
-<img width="500" alt="box_lid" src="assets/box_lid.jpeg">
+<img width="500" alt="box_lid" src="assets/box_lid.jpg">
 
 Amidst these experiments, I am still in the process of finalizing the perfect packaging solution for my jewelry brand. This remains a critical component of my project, as the packaging must not only be protective but also reflect the aesthetic and quality of the jewelry inside.
 
