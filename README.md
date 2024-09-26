@@ -4,7 +4,7 @@
 
 **Diagram**:
 
-<img width="500" alt="map" src="assets/map.png">
+<img width="800" alt="map" src="assets/map.png">
 
 **Brief Explanation:**
 
