@@ -30,7 +30,7 @@ I also used a woodshop saw to cut wood, gaining practical experience in material
 Accidentally found a human face too.
 
 
-<img width="500" alt="face" src="face.jpg">
+<img width="500" alt="face" src="assets/face.jpg">
 
 **Challenges and Learnings:**
 
