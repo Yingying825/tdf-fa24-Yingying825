@@ -1,3 +1,48 @@
+# Week4: Progress Report
+
+### **Week of 09/19/2024**
+
+**Diagram**:
+
+<img width="500" alt="map" src="assets/map.png">
+
+**Brief Explanation:**
+
+Diagram Explanation: 
+
+I chose the Transportation & Mobility Ecosystem because I use public transportation every day.
+
+The ecosystem revolves around my smartphone, which connects to transit apps for real-time schedule updates, payment systems and transportation networks.
+
+Information Flow: Data flows from transit systems to the apps on my phone, providing live updates about schedules and traffic conditions. My GPS location also helps the apps recommend the best routes.
+
+Feedback Loops: Real-time updates influence my choices, like taking alternative routes when delays occur. Over time, apps use my travel history to provide better suggestions, while contactless payments track my usage, offering rewards system.
+
+**Personal Performance Reflection:**
+
+Introduction to New Tools and Technologies:
+
+This week, I started using Postman, a platform for API testing, and Photon, a tool for physical computing. Both are expanding my technical capabilities and project possibilities.
+
+Hands-on Experience in the Woodshop:
+
+I also used a woodshop saw to cut wood, gaining practical experience in material manipulation and understanding safety and precision in woodworking.
+Accidentally found a human face too.
+
+
+<img width="500" alt="face" src="face.jpg">
+
+**Challenges and Learnings:**
+
+Working with the woodshop saw was challenging due to the need for precise measurements and adherence to safety protocols. This experience enhanced my practical skills with wood as a material.
+
+**Reflection and Future Directions:**
+
+By exploring both digital and physical tools, I plan to further develop my skills with Postman and Photon, and continue improving in hand-on working. These skills will help in integrating software with physical computing for future technology-driven projects.
+
+
+
+
 # Week3: Progress Report
 
 ### **Week of 09/12/2024**
