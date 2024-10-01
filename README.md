@@ -64,14 +64,14 @@ I found out the logic behind it is similar to Arduino with python but the writin
 
 <img width="800" alt="01Result" src="assets/09_29Homework_01Result.png">
 
-![Button.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Button.jpg)
+<img width="800" alt="Button" src="assets/Button.jpg">
 
-![Button_Pressed.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Button_Pressed.jpg)
+<img width="800" alt="Button_Pressed" src="assets/Button_Pressed.jpg">
 
 For the first time, I changed the sentence “Hello World!” into “Goodnight World!”:
 char night[] = "Goodnight World!";
 
-![09_29Homework_01Compileb.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_01Compileb.png)
+<img width="800" alt="01Compileb" src="assets/09_29Homework_01Compileb.png">
 
 I also change the name here:
 Log.info("current character: %c", night[count]); 
