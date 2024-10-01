@@ -98,7 +98,7 @@ I questioned about the sequences of following:
 
 <img width="800" alt="02ButtonResult" src="assets/09_29Homework_02ButtonResult.png">
 
-<img width="500" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">
+<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">
 
 For the changes, I decided to add another button to change the led behavior.
 
