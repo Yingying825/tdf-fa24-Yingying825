@@ -118,13 +118,13 @@ I spent some time fixing the circuit problem and finally turned on the green lig
 
 <img width="800" alt="03Flash" src="assets/09_29Homework_03Flash.png">
 
-<img width="800" alt="Grlight_plus_Rdlight" src="assets/Grlight_plus_Rdlight.jpg">
+<img width="400" alt="Grlight_plus_Rdlight" src="assets/Grlight_plus_Rdlight.jpg">
 
 I changed loop function to alternate between turning green light and red light. But it didn’t help for the red light but the blue light with green light works well. 
 
-![09_29Homework_03Flashb.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_03Flashb.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flashb.png">
 
-![Green_Blink_red.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Green_Blink_red%201.jpg)
+<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">!
 
 ![Internal_Light.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Internal_Light.jpg)
 
