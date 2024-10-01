@@ -62,7 +62,7 @@ I found out the logic behind it is similar to Arduino with python but the writin
 
 <img width="800" alt="01Flash" src="assets/09_29Homework_01Flash.png">
 
-![09_29Homework_01Result.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_01Result.png)
+<img width="800" alt="01Result" src="assets/09_29Homework_01Result.png">
 
 ![Button.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Button.jpg)
 
