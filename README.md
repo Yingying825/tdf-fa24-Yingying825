@@ -64,9 +64,9 @@ I found out the logic behind it is similar to Arduino with python but the writin
 
 <img width="800" alt="01Result" src="assets/09_29Homework_01Result.png">
 
-<img width="800" alt="Button" src="assets/Button.jpg">
+<img width="350" alt="Button" src="assets/Button.jpg">
 
-<img width="800" alt="Button_Pressed" src="assets/Button_Pressed.jpg">
+<img width="350" alt="Button_Pressed" src="assets/Button_Pressed.jpg">
 
 For the first time, I changed the sentence “Hello World!” into “Goodnight World!”:
 char night[] = "Goodnight World!";
