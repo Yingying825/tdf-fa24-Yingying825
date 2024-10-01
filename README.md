@@ -114,10 +114,11 @@ For the 05 Make it blink outside file:
 
 I spent some time fixing the circuit problem and finally turned on the green light. Because of the transportation system i wrote down in my report, i decided to add another red light to mimic the traffic light. But the red light is not that vivid compared to the green and i decided to turn them on at different times to reduce the load on the power supply.
 
-![09_29Homework_03Compile.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_03Compile.png)
+<img width="800" alt="03Compile" src="assets/09_29Homework_03Compile.png">
 
-![09_29Homework_03Flash.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_03Flash.png)
+<img width="800" alt="03Flash" src="assets/09_29Homework_03Flash.png">
 
+<img width="800" alt="Grlight_plus_Rdlight" src="assets/Grlight_plus_Rdlight.JPG">
 ![Grlight_plus_Rdlight.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Grlight_plus_Rdlight.jpg)
 
 I changed loop function to alternate between turning green light and red light. But it didn’t help for the red light but the blue light with green light works well. 
