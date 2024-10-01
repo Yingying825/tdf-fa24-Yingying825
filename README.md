@@ -92,11 +92,11 @@ I questioned about the sequences of following:
 
 **Compiled & Flashed & Button Pressed Successfully**
 
-![09_29Homework_02Compile.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_02Compile.png)
+<img width="800" alt="02Compile" src="assets/09_29Homework_02Compile.png">
 
-![09_29Homework_02Flash.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_02Flash.png)
+<img width="800" alt="02Flash" src="assets/09_29Homework_02Flash.png">
 
-![09_29Homework_02ButtonResult.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_02ButtonResult.png)
+<img width="800" alt="02ButtonResult" src="assets/09_29Homework_02ButtonResult.png">
 
 ![Green_Blink_red.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Green_Blink_red.jpg)
 
