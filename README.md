@@ -8,7 +8,7 @@ I started with the file 03_altering_periodicity;
 
 Cause i did not use any c languages before and I started to learn the meaning behind the code with the help of Chatgpt. 
 
-<img width="800" alt="01Compile" src="assets/09_29Homework_01Compile.png">
+<img width="800" alt="01Process" src="assets/09_29Homework_01Process.png">
 
 I learned about 
 
@@ -58,7 +58,7 @@ I found out the logic behind it is similar to Arduino with python but the writin
 
 **Compiled & Flashed & Printed Successfully**
 
-![09_29Homework_01Compile.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_01Compile.png)
+<img width="800" alt="01Compile" src="assets/09_29Homework_01Compile.png">
 
 ![09_29Homework_01Flash.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_01Flash.png)
 
