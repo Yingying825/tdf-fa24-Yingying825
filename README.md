@@ -122,11 +122,9 @@ I spent some time fixing the circuit problem and finally turned on the green lig
 
 I changed loop function to alternate between turning green light and red light. But it didn’t help for the red light but the blue light with green light works well. 
 
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flashb.png">
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
-<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">
-
-<img width="400" alt="Internal_Light" src="assets/Internal_Light.jpg">
+<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg"> <img width="400" alt="Internal_Light" src="assets/Internal_Light.jpg">
 
 **How These Elements Form a Cohesive Whole**
 
