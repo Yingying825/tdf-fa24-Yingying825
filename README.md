@@ -1,6 +1,6 @@
 # Week5: Progress Report
 
-### **Week of 09/21/2024**
+### **Week of 09/30/2024**
 
 Firstly, i tried to connect the photon2 with my home wifi. I logged in Particle website and configure wifi panel to connect with my wifi. 
 
@@ -124,9 +124,9 @@ I changed loop function to alternate between turning green light and red light. 
 
 <img width="800" alt="03Flashb" src="assets/09_29Homework_03Flashb.png">
 
-<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">!
+<img width="400" alt="Green_Blink_red" src="assets/Green_Blink_red.jpg">
 
-![Internal_Light.JPG](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/Internal_Light.jpg)
+<img width="400" alt="Internal_Light" src="assets/Internal_Light.jpg">
 
 **How These Elements Form a Cohesive Whole**
 
