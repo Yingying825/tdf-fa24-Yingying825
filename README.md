@@ -8,7 +8,7 @@ I started with the file 03_altering_periodicity;
 
 Cause i did not use any c languages before and I started to learn the meaning behind the code with the help of Chatgpt. 
 
-![09_29Homework_01Process.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_01Process.png)
+<img width="800" alt="01Compile" src="assets/09_29Homework_01Compile.png">
 
 I learned about 
 
