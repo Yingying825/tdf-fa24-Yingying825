@@ -102,7 +102,7 @@ I questioned about the sequences of following:
 
 For the changes, I decided to add another button to change the led behavior.
 
-![09_29Homework_02Flashb.png](Week5%20Progress%20Report%20111933af310c80a38221cb4812cb4e56/09_29Homework_02Flashb.png)
+<img width="800" alt="02Flashb" src="assets/09_29Homework_02Flashb.png">
 
 I added second button pin definition**,** Added bool button2_pressed = false; updated setup by adding pinMode and attachInterrupt. Added a new function button2_press(); 
 
