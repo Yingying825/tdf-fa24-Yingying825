@@ -182,20 +182,15 @@ int bValue = 0;
 
 During the coding process, I got confused about why we need to set both target and color, not only colors. And I figured it out that by setting up both can make the led transition much smoother. And when i first typed in codes, there was an error show up saying 'setTarget' was not declared in this scope either the “setColor”. I added function prototype before the setup and solved the problem.
 
-![10_02Homework_01Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Compile.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="01Compile" src="assets/10_02Homework_01Compile.png">
 
-![10_02Homework_01Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Flash.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="01Flash" src="assets/10_02Homework_01Flash.png">
 
-![10_02Homework_RDlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_RDlight.jpeg)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="RDlight" src="assets/10_02Homework_RDlight.jpeg">
 
-![10_02Homework_GRlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_GRlight.jpeg)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="400" alt="GRlight" src="assets/10_02Homework_GRlight.jpeg">
 
-![10_02Homework_BLlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_BLlight.jpeg)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="400" alt="BLlight" src="assets/10_02Homework_BLlight.jpeg">
 
 **basic button send-on-change example**
 
