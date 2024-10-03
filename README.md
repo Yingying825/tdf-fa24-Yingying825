@@ -238,19 +238,15 @@ On the Particle Photon (and most microcontrollers), **`A0`, `A1`, `A2`**, etc
 During the compile process, I encountered compile problem and Dianer helped me to solve the library hierarchy problems.
 By dragging around the file, chatgpt suggests me to clean the file in particle benwork panel. So i cleaned the file first and compiled them later. 
 
-![10_03Homework_03Clean.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Clean.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="03Clean" src="assets/10_03Homework_03Clean.png">
 
-![10_03Homework_03Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Compile.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="03Compile" src="assets/10_03Homework_03Compile.png">
 
-![10_03Homework_03Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Flash.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="03Flash" src="assets/10_03Homework_03Flash.png">
 
-![10_03Homework_03Output.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Output.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="03Output" src="assets/10_03Homework_03Output.png">
 
-<img width="800" alt="03Circuit" src="assets/10_03Homework_03Circuit.jpg">
+<img width="400" alt="03Circuit" src="assets/10_03Homework_03Circuit.jpg">
 
 The prior examples have simple interaction and the demo projects have various input. The similarities are they all have certain kind of visual feedback and have simple physical inputs. By adding a motion sensor may be more equivalent to my life, so i can have a night lamp during night time. I think machine learning can help to smart tracking the volume of traffic in order to adjust the lines and lights efficiently. If combining the examples into larger ecosystem, i may think about smart home system, acts as a personal home assistant.
 
