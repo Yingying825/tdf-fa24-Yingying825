@@ -155,21 +155,17 @@ I tried one more example from the weekend’s folder. **I started with the file 
 
 This array is then used for publishing data to the cloud since functions like **`Particle.publish()`** require the data to be in string form.
 
-![10_02Homework_04Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Compile.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="04Compile" src="assets/10_02Homework_04Compile.png">
 
-![10_02Homework_04Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Flash.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="04Flash" src="assets/10_02Homework_04Flash.png">
 
 I checked Particle cloud and i saw the number of my cycles. 
 
-![10_02Homework_04Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Cloud.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="04Cloud" src="assets/10_02Homework_04Cloud.png">
 
 For the revision requirement, I decided to add a restriction for publishing. I would like to make the publish only if the cycle count is a multiple of 5. 
 
-![10_02Homework_04bCloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04bCloud.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="04bCloud" src="assets/10_02Homework_04bCloud.png">
 
 **Next, I started to work on the fsr (force sensitive resistor) -> RGB-led color fader**
 
