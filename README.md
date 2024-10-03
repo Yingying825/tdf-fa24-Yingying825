@@ -4,7 +4,7 @@
 
 Firstly, i tried to connect the photon2 with my home wifi. I logged in Particle website and configure wifi panel to connect with my wifi. 
 
-I started with the file 03_altering_periodicity; 
+I started with the file **03_altering_periodicity**; 
 
 Cause i did not use any c languages before and I started to learn the meaning behind the code with the help of Chatgpt. 
 
@@ -76,7 +76,7 @@ Log.info("current character: %c", night[count]);
 
 I encountered a problem when i used save as the file, it gave me an error when i was trying to compile and flash. I opened a new project and rewrite the code, the error disappeared. 
 
-For the 04 Make it blink file:
+For the **04 Make it blink file**:
 
 I first questioned about the differences between pin_t button_in = D2; and const pin_t button_in = D2:
 
@@ -110,7 +110,7 @@ I was also changing the Log.info, it appeared an error showing "Log" is ambiguou
 Finally, I changed the code in loop to change LED behavior.
 I experimented with the circuit and made it showing button pressed.
 
-For the 05 Make it blink outside file:
+For the **05 Make it blink outside file**:
 
 I spent some time fixing the circuit problem and finally turned on the green light. Because of the transportation system i wrote down in my report, i decided to add another red light to mimic the traffic light. But the red light is not that vivid compared to the green and i decided to turn them on at different times to reduce the load on the power supply.
 
