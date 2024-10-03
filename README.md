@@ -1,4 +1,4 @@
-# Week5: Progress Report
+# Week5A: Progress Report
 
 ### **Week of 09/30/2024**
 
@@ -146,6 +146,96 @@ A key realization is that real-time response systems are underused in everyday
 
 In my demo, buttons were used to trigger actions, similar to stop request buttons in public transport, while the Particle Cloud was utilized for publishing events, just like GPS-based real-time tracking in transit systems. Serial logs allowed centralized monitoring, similar to tracking vehicles and schedules in public transportation. The periodicity feature that adjusted LED blink rates parallels how bus schedules change dynamically based on demand. Visual feedback from LEDs after button presses is comparable to bus stop buttons lighting up to confirm requests. These IoT elements—buttons, LEDs, cloud, and timing—demonstrate how real-time interaction, monitoring, and automation can create efficient systems, similar to public transit.
 
+# Week5B: Progress ReportB
+
+### **Week of 10/02/2024**
+
+I tried one more example from the weekend’s folder. **I started with the file 06_publishing_info;** 
+**`snprintf()`**: This function is used to convert the integer **`count_cycles`** into a string and store it in **`count_cycles_str`**.
+
+This array is then used for publishing data to the cloud since functions like **`Particle.publish()`** require the data to be in string form.
+
+![10_02Homework_04Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Compile.png)
+
+![10_02Homework_04Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Flash.png)
+
+I checked Particle cloud and i saw the number of my cycles. 
+
+![10_02Homework_04Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Cloud.png)
+
+For the revision requirement, I decided to add a restriction for publishing. I would like to make the publish only if the cycle count is a multiple of 5. 
+
+![10_02Homework_04bCloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04bCloud.png)
+
+**Next, I started to work on the fsr (force sensitive resistor) -> RGB-led color fader**
+
+int rValue = 0;
+int gValue = 0;
+int bValue = 0;
+
+- **`rValue`, `gValue`, `bValue`** are used to control and adjust the intensity of each color component of the RGB LED. By modifying these values, i can control the brightness and color mix of the RGB LED.
+- **`analogRead()`** is a function that reads the voltage level on the specified analog pin (**`FSRPIN`**).
+
+During the coding process, I got confused about why we need to set both target and color, not only colors. And I figured it out that by setting up both can make the led transition much smoother. And when i first typed in codes, there was an error show up saying 'setTarget' was not declared in this scope either the “setColor”. I added function prototype before the setup and solved the problem.
+
+![10_02Homework_01Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Compile.png)
+
+![10_02Homework_01Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Flash.png)
+
+![10_02Homework_RDlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_RDlight.jpeg)
+
+![10_02Homework_GRlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_GRlight.jpeg)
+
+![10_02Homework_BLlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_BLlight.jpeg)
+
+**basic button send-on-change example**
+
+- const char *be = "button_event"; // Name of published event
+**`be`** is the **event name** used when publishing button presses to the Particle cloud.
+- **`volatile int state`** and **`volatile int state_was`** are used to track the **current state** and **previous state** of the button.
+
+- **`state = digitalRead(button)`**: Reads the **button state** (either **HIGH** or **LOW**).
+- **`digitalWrite(ledpin, state)`**: Turns the **LED on or off** depending on the button state.
+
+- String state_str = String(state); // Convert button state to string;
+
+I was wondering about why we need to covert state to string, and after consulting with chat gpt, I understood that it can make it easier to send or publish the button state to the cloud or use it for text-based operations.
+
+![10_02Homework_02compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02compile.png)
+
+![10_02Homework_02Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Flash.png)
+
+![10_02Homework_02Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Cloud.png)
+
+![10_02Homework_02Circuit.JPG](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Circuit.jpg)
+
+**potentiometer -> oled display**
+
+#define POT_PIN A0 // Potentiometer is connected to A0
+
+- I am wondering why we need to connect it to A0 not D2,D3, or D7, and I asked chat gpt:
+On the Particle Photon (and most microcontrollers), **`A0`, `A1`, `A2`**, etc., are **analog input pins**.
+- When connect the potentiometer to **`A0`**, we can read the **exact voltage level** as a **digital number**, which represents the position of the potentiometer.
+- **Digital pins** like **`D2`, `D3`, `D7`**, etc., are designed for **digital input/output**.
+- Digital pins can only read **two states**: **HIGH** or **LOW**.
+    - **HIGH** typically means 3.3V (or 5V depending on the microcontroller).
+    - **LOW** means 0V.
+- Using **`A0`** allows you to read the potentiometer value accurately and utilize it for whatever function you need, such as **adjusting brightness**, **volume**, or other variables in your project.
+
+During the compile process, I encountered compile problem and Dianer helped me to solve the library hierarchy problems.
+By dragging around the file, chatgpt suggests me to clean the file in particle benwork panel. So i cleaned the file first and compiled them later. 
+
+![10_03Homework_03Clean.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Clean.png)
+
+![10_03Homework_03Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Compile.png)
+
+![10_03Homework_03Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Flash.png)
+
+![10_03Homework_03Output.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Output.png)
+
+![10_03Homework_03Circuit.JPG](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Circuit.jpg)
+
+The prior examples have simple interaction and the demo projects have various input. The similarities are they all have certain kind of visual feedback and have simple physical inputs. By adding a motion sensor may be more equivalent to my life, so i can have a night lamp during night time. I think machine learning can help to smart tracking the volume of traffic in order to adjust the lines and lights efficiently. If combining the examples into larger ecosystem, i may think about smart home system, acts as a personal home assistant.
 
 
 
