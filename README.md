@@ -210,17 +210,13 @@ During the coding process, I got confused about why we need to set both target a
 
 I was wondering about why we need to covert state to string, and after consulting with chat gpt, I understood that it can make it easier to send or publish the button state to the cloud or use it for text-based operations.
 
-![10_02Homework_02compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02compile.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="02compile" src="assets/10_02Homework_02compile.png">
 
-![10_02Homework_02Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Flash.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="02Flash" src="assets/10_02Homework_02Flash.png">
 
-![10_02Homework_02Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Cloud.png)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="800" alt="02Cloud" src="assets/10_02Homework_02Cloud.png">
 
-![10_02Homework_02Circuit.JPG](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Circuit.jpg)
-<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
+<img width="400" alt="02Circuit" src="assets/10_02Homework_02Circuit.jpg">
 
 **potentiometer -> oled display**
 
