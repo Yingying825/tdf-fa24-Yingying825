@@ -156,16 +156,20 @@ I tried one more example from the weekend’s folder. **I started with the file 
 This array is then used for publishing data to the cloud since functions like **`Particle.publish()`** require the data to be in string form.
 
 ![10_02Homework_04Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Compile.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_04Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Flash.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 I checked Particle cloud and i saw the number of my cycles. 
 
 ![10_02Homework_04Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04Cloud.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 For the revision requirement, I decided to add a restriction for publishing. I would like to make the publish only if the cycle count is a multiple of 5. 
 
 ![10_02Homework_04bCloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_04bCloud.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 **Next, I started to work on the fsr (force sensitive resistor) -> RGB-led color fader**
 
@@ -179,14 +183,19 @@ int bValue = 0;
 During the coding process, I got confused about why we need to set both target and color, not only colors. And I figured it out that by setting up both can make the led transition much smoother. And when i first typed in codes, there was an error show up saying 'setTarget' was not declared in this scope either the “setColor”. I added function prototype before the setup and solved the problem.
 
 ![10_02Homework_01Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Compile.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_01Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_01Flash.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_RDlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_RDlight.jpeg)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_GRlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_GRlight.jpeg)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_BLlight.jpeg](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_BLlight.jpeg)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 **basic button send-on-change example**
 
@@ -202,12 +211,16 @@ During the coding process, I got confused about why we need to set both target a
 I was wondering about why we need to covert state to string, and after consulting with chat gpt, I understood that it can make it easier to send or publish the button state to the cloud or use it for text-based operations.
 
 ![10_02Homework_02compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02compile.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_02Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Flash.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_02Cloud.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Cloud.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_02Homework_02Circuit.JPG](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_02Homework_02Circuit.jpg)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 **potentiometer -> oled display**
 
@@ -226,14 +239,18 @@ During the compile process, I encountered compile problem and Dianer helped me t
 By dragging around the file, chatgpt suggests me to clean the file in particle benwork panel. So i cleaned the file first and compiled them later. 
 
 ![10_03Homework_03Clean.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Clean.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_03Homework_03Compile.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Compile.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_03Homework_03Flash.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Flash.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
 ![10_03Homework_03Output.png](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Output.png)
+<img width="800" alt="03Flashb" src="assets/09_29Homework_03Flash.png">
 
-![10_03Homework_03Circuit.JPG](Week5%20Progress%20ReportB%20113933af310c800392b3ec80ea069e51/10_03Homework_03Circuit.jpg)
+<img width="800" alt="03Circuit" src="assets/10_03Homework_03Circuit.jpg">
 
 The prior examples have simple interaction and the demo projects have various input. The similarities are they all have certain kind of visual feedback and have simple physical inputs. By adding a motion sensor may be more equivalent to my life, so i can have a night lamp during night time. I think machine learning can help to smart tracking the volume of traffic in order to adjust the lines and lights efficiently. If combining the examples into larger ecosystem, i may think about smart home system, acts as a personal home assistant.
 
