@@ -182,11 +182,7 @@ During the coding process, I got confused about why we need to set both target a
 
 <img width="800" alt="01Flash" src="assets/10_02Homework_01Flash.png">
 
-<img width="800" alt="RDlight" src="assets/10_02Homework_RDlight.jpeg">
-
-<img width="400" alt="GRlight" src="assets/10_02Homework_GRlight.jpeg">
-
-<img width="400" alt="BLlight" src="assets/10_02Homework_BLlight.jpeg">
+<img width="300" alt="RDlight" src="assets/10_02Homework_RDlight.jpeg"><img width="300" alt="GRlight" src="assets/10_02Homework_GRlight.jpeg"><img width="300" alt="BLlight" src="assets/10_02Homework_BLlight.jpeg">
 
 **basic button send-on-change example**
 
