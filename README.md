@@ -1,3 +1,71 @@
+# Week6: Progress Report
+
+### **Week of 10/05/2024**
+
+At first, I soldered shied and put on the Photon2. And then, I tried to connect them with my computer using usb cable. But there’s a yellow light blink once at the CHG port and i tried to debug the problem for a long time.
+
+![Soldering.JPG](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/Soldering.jpg)
+
+**MPU6050 sensor:**
+
+![MPU_Flash.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Flash.png)
+
+I tried to enable function: accelgyro.getAcceleration(&ax, &ay, &az) and got the data. I compared the acceleration data with the motion data.
+
+![MPU_Circuit.JPG](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Circuit.jpg)
+
+![MPU_Motion_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Motion_Result.png)
+
+![MPU_Accleration_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Accleration_Result.png)
+
+**APDS-9960** sensor, which is an integrated module capable of **gesture recognition**, **proximity detection**, **ambient light sensing**, and **RGB color sensing**.
+
+methods for enabling different sensors (`enableGestureSensor(true)`, `enableLightSensor(false)`, `enableProximitySensor(false)`) 
+
+I was wondering why enable the light sensor and the proximity sensor by using (false) not the same one as the gesture sensor (true)
+
+The **parameter (`true` or `false`)** in the methods controls whether the corresponding sensor should use **interrupts** or **polling.**
+
+- **`true`**: Enables **interrupt mode**.
+- **`false`**: Enables **polling mode**.
+- **Interrupt Mode (`true`)**:
+    - **Gesture Sensor** is enabled with `true` in `enableGestureSensor(true)`.
+    - When a sensor is set to use interrupts, the sensor itself will generate an interrupt signal whenever an event of interest occurs (e.g., a gesture is detected).
+    - This means the **microcontroller doesn’t need to continuously check the sensor's status**, freeing it up to perform other tasks and reducing power consumption. It will only respond when an event occurs, such as a gesture being detected.
+- **Polling Mode (`false`)**:
+    - The **Light Sensor** and **Proximity Sensor** are enabled with `false` in `enableLightSensor(false)` and `enableProximitySensor(false)`.
+    - In **polling mode**, the code continuously checks (or "polls") the sensor to see if any new data is available. This is a simpler approach and is often used when you want to read the sensor at regular intervals rather than waiting for a specific event to trigger an action.
+    - Polling is more straightforward to implement but can be less efficient since the microcontroller must repeatedly ask the sensor for data rather than being alerted only when needed.
+
+**`if ( !apds.setProximityGain(PGAIN_2X) ) {`**
+The **`!`** in `if ( !apds.setProximityGain(PGAIN_2X) )` means "not," which indicates that if the return value of `setProximityGain()` is `false` (indicating failure), then the code inside the `if` block will execute.
+
+**`PGAIN_2X`** is an argument that defines the proximity gain level. The gain determines how sensitive the sensor is to objects that are nearby.
+
+![APDS_Circuit.JPG](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Circuit.jpg)
+
+![APDS_Proximity_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Proximity_Result.png)
+
+And then, I explored the gesture sensor function and Light sensor function by altering the code.
+
+![APDS_Gesture_Flash.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Gesture_Flash.png)
+
+![APDS_Gesture_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Gesture_Result.png)
+
+I also tried and alterd the code for the light sensor.
+
+![APDS_Light_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Light_Result.png)
+
+This is the diagram showing the whole exploration. 
+
+![data_diagram.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/data_diagram.png)
+
+After the exploration, I’m thinking about using these two sensors in the transportation system. The MPU 6050 sensor to monitor vehicle dynamics, such as sudden acceleration, sharp turns or braking and also enhance passenger safety like track bus stability and detect unsafe driving.
+For the APDS 9960 sensor, it can be used for touchless controls like requesting stop or opening doors via gestures. In addition, it can control seat lights when passengers are nearby by using proximity-based lighting.
+
+
+
+
 # Week5A: Progress Report
 
 ### **Week of 09/30/2024**
