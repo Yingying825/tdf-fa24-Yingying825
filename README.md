@@ -42,7 +42,7 @@ The **`!`** in `if ( !apds.setProximityGain(PGAIN_2X) )` means "not," which 
 
 **`PGAIN_2X`** is an argument that defines the proximity gain level. The gain determines how sensitive the sensor is to objects that are nearby.
 
-<img width="800" alt="APDS_Circuit" src="assets/APDS_Circuit.jpg">
+<img width="400" alt="APDS_Circuit" src="assets/APDS_Circuit.jpg">
 
 <img width="800" alt="APDS_Proximity_Result" src="assets/APDS_Proximity_Result.png">
 
