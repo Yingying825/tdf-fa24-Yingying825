@@ -63,6 +63,9 @@ This is the diagram showing the whole exploration.
 After the exploration, I’m thinking about using these two sensors in the transportation system. The MPU 6050 sensor to monitor vehicle dynamics, such as sudden acceleration, sharp turns or braking and also enhance passenger safety like track bus stability and detect unsafe driving.
 For the APDS 9960 sensor, it can be used for touchless controls like requesting stop or opening doors via gestures. In addition, it can control seat lights when passengers are nearby by using proximity-based lighting.
 
+For the group proposal, this is the link: 
+https://docs.google.com/document/d/1NTrjd6Ivd9DsqQrRy5k4kXpfnqgkJmYc25LHgkNxIuk/edit?usp=sharing
+
 
 
 
