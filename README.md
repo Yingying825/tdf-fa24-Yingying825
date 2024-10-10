@@ -12,7 +12,7 @@ At first, I soldered shied and put on the Photon2. And then, I tried to connect 
 
 I tried to enable function: accelgyro.getAcceleration(&ax, &ay, &az) and got the data. I compared the acceleration data with the motion data.
 
-<img width="800" alt="MPU_Circuit" src="assets/MPU_Circuit.jpg">
+<img width="400" alt="MPU_Circuit" src="assets/MPU_Circuit.jpg">
 
 <img width="800" alt="MPU_Motion_Result" src="assets/MPU_Motion_Result.png">
 
