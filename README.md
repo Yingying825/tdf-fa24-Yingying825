@@ -4,7 +4,7 @@
 
 At first, I soldered shied and put on the Photon2. And then, I tried to connect them with my computer using usb cable. But there’s a yellow light blink once at the CHG port and i tried to debug the problem for a long time.
 
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="400" alt="Soldering" src="assets/Soldering.jpg">
 
 **MPU6050 sensor:**
 
