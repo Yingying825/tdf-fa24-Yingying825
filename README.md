@@ -12,14 +12,11 @@ At first, I soldered shied and put on the Photon2. And then, I tried to connect 
 
 I tried to enable function: accelgyro.getAcceleration(&ax, &ay, &az) and got the data. I compared the acceleration data with the motion data.
 
-![MPU_Circuit.JPG](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Circuit.jpg)
 <img width="800" alt="MPU_Circuit" src="assets/MPU_Circuit.jpg">
 
-![MPU_Motion_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Motion_Result.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="MPU_Motion_Result" src="assets/MPU_Motion_Result.png">
 
-![MPU_Accleration_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/MPU_Accleration_Result.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="MPU_Accleration_Result" src="assets/MPU_Accleration_Result.png">
 
 **APDS-9960** sensor, which is an integrated module capable of **gesture recognition**, **proximity detection**, **ambient light sensing**, and **RGB color sensing**.
 
@@ -45,29 +42,23 @@ The **`!`** in `if ( !apds.setProximityGain(PGAIN_2X) )` means "not," which 
 
 **`PGAIN_2X`** is an argument that defines the proximity gain level. The gain determines how sensitive the sensor is to objects that are nearby.
 
-![APDS_Circuit.JPG](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Circuit.jpg)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="APDS_Circuit" src="assets/APDS_Circuit.jpg">
 
-![APDS_Proximity_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Proximity_Result.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="APDS_Proximity_Result" src="assets/APDS_Proximity_Result.png">
 
 And then, I explored the gesture sensor function and Light sensor function by altering the code.
 
-![APDS_Gesture_Flash.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Gesture_Flash.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="APDS_Gesture_Flash" src="assets/APDS_Gesture_Flash.png">
 
-![APDS_Gesture_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Gesture_Result.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="APDS_Gesture_Result" src="assets/APDS_Gesture_Result.png">
 
 I also tried and alterd the code for the light sensor.
 
-![APDS_Light_Result.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/APDS_Light_Result.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="APDS_Light_Result" src="assets/APDS_Light_Result.png">
 
 This is the diagram showing the whole exploration. 
 
-![data_diagram.png](Week6%20Progress%20Report%20117933af310c8020a06dc0b9591d0eec/data_diagram.png)
-<img width="800" alt="Soldering" src="assets/Soldering.jpg">
+<img width="800" alt="data_diagram" src="assets/data_diagram.png">
 
 After the exploration, I’m thinking about using these two sensors in the transportation system. The MPU 6050 sensor to monitor vehicle dynamics, such as sudden acceleration, sharp turns or braking and also enhance passenger safety like track bus stability and detect unsafe driving.
 For the APDS 9960 sensor, it can be used for touchless controls like requesting stop or opening doors via gestures. In addition, it can control seat lights when passengers are nearby by using proximity-based lighting.
