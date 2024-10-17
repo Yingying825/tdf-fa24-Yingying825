@@ -4,7 +4,7 @@
 
 I successfully got my location data by using Google Maps API.
 
-![location_data.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/location_data.png)
+<img width="800" alt="location_data" src="assets/location_data.png">
 
 got the google map geolocation api key first
 
@@ -21,7 +21,7 @@ but couldn’t see the data because of a configuration error
 
 went to the console — integrations — google maps device locator and pasted my api key;
 
-![flash_location.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/flash_location.png)
+<img width="800" alt="flash_location" src="assets/flash_location.png">
 
 Another error showed up but went to the link website and enabled my api key, which I didn’t fully enable it before.
 
@@ -35,11 +35,11 @@ Press the button for over three times, the led keep blinking red and the device 
 
 Keep pressing the button to turn off the led and stop sharing the location.
 
-![buttonpressled.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/buttonpressled.png)
+<img width="800" alt="buttonpressled" src="assets/buttonpressled.png">
 
 I experimented with the code for a long time by trying interrupt and debouncing, and I still could not complete the long-press function. We ended up synchronizing the light with vibrator by pressing the button at the same time and control the blinking and vibration times. 
 
-![IMG_4674.jpg](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/IMG_4674.jpg)
+<img width="800" alt="synchronize" src="assets/synchronize.jpg">
 
 
 # Week6: Progress Report
