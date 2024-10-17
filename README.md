@@ -1,3 +1,47 @@
+# Week7: Progress Report
+
+### **Week of 10/12/2024**
+
+I successfully got my location data by using Google Maps API.
+
+![location_data.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/location_data.png)
+
+got the google map geolocation api key first
+
+key=API_KEY
+
+AIzaSyBv39OIes73QOFWcOIXVTBKi12OYXrTIz0
+
+and then, went to the particle ide to run the google maps firmware library on the device
+
+include <google-maps-device-locator.h>;
+
+compiled and flashed successfully
+but couldn’t see the data because of a configuration error
+
+went to the console — integrations — google maps device locator and pasted my api key;
+
+![flash_location.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/flash_location.png)
+
+Another error showed up but went to the link website and enabled my api key, which I didn’t fully enable it before.
+
+For the other functionalities, I also tried to figure out the accelerometer differences between **LIS3DH and MPU6050.** And we decided to stick with what we have now, which is MPU6050. We need to do the edge impulse for machine learning the user behavior. 
+
+****And then we broke down the function into different tasks to test them separately. I am dealing with the **Interaction Modes with Button Presses.** The ideal result we want to achieve is: 
+Press the button once, the led blink green once;
+
+Press the button for two times, the led blink yellow for two times and the device keep sharing the real-time location;
+Press the button for over three times, the led keep blinking red and the device keep sharing the real-time location;
+
+Keep pressing the button to turn off the led and stop sharing the location.
+
+![buttonpressled.png](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/buttonpressled.png)
+
+I experimented with the code for a long time by trying interrupt and debouncing, and I still could not complete the long-press function. We ended up synchronizing the light with vibrator by pressing the button at the same time and control the blinking and vibration times. 
+
+![IMG_4674.jpg](Week7%20Progress%20Report%2011e933af310c80dbb9eaec6fd7941c92/IMG_4674.jpg)
+
+
 # Week6: Progress Report
 
 ### **Week of 10/05/2024**
