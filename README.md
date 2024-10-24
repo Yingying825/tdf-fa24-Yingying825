@@ -4,9 +4,7 @@
 
 I figured out the particle team working flow that user needs to add product into the group by themselves. 
 
-<img width="400" alt="Group_Device" src="assets/Group_Device.png">
-
-<img width="400" alt="Group_Device2" src="assets/Group_Device2.png">
+<img width="400" alt="Group_Device" src="assets/Group_Device.png"> <img width="400" alt="Group_Device2" src="assets/Group_Device2.png">
 
 I figured out the particle cloud communication between devices with Dianer by dividing devices into publisher and subscriber. When user press the button, sending “button press” messages on cloud and triggering the led, vibrator and google map locations. 
 
@@ -14,11 +12,7 @@ During the process, we had a hard time figuring out the mechanism of group commu
 
 I got the accelerometer data, access token from Particle Cloud, and I can also got the data through my computer terminal, in order to train the machine learning model. But we decided to use the specific range of data changes as an indicator of sudden fall at this stage. 
 
-<img width="400" alt="Accel" src="assets/Accel.png">
-
-<img width="400" alt="Accel_data" src="assets/Accel_data.png">
-
-<img width="400" alt="Accel_terminal" src="assets/Accel_terminal.png">
+<img width="400" alt="Accel" src="assets/Accel.png"> <img width="400" alt="Accel_data" src="assets/Accel_data.png"> <img width="400" alt="Accel_terminal" src="assets/Accel_terminal.png">
 
 After making everything work on the breadboard, I successfully soldered one of the prototype boards to make the circuit more stable. I also connected Accelerometer with Photon2 with outside Lipo battery to make the product work without connecting with computer. 
 
