@@ -20,6 +20,9 @@ After making everything work on the breadboard, I successfully soldered one of t
 
 After finishing the whole ecosystem, we shoot the video according to the script and I got the artificial intelligence audio that fits into the scripts and we finally finish editing the video.
 
+video link: https://youtu.be/-pfiwCFtWow
+
+
 
 
 
