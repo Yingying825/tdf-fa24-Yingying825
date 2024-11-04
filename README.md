@@ -1,3 +1,36 @@
+# Week9: Progress Report
+
+### **Week of 10/26/2024**
+
+I followed TJ’s amazing tutorial and have finished the four gpt experiments as showing below.
+
+<img width="800" alt="gpt experiment_01_number slider" src="assets/gpt experiment_01_number slider.png"> 
+
+I first played with number slider to see the results it effects.
+
+<img width="400" alt="gpt experiment_01_greeting text" src="assets/gpt experiment_01_greeting text.png"><img width="400" alt="gpt gpt experiment_01_greeting text02" src="assets/gpt experiment_01_greeting text02.png">
+
+And then, I added the greeting text to the demo page, which is really fun to do.
+
+<img width="400" alt="gpt+ instruct experiment_01_prompt" src="assets/gpt_instruct_experiment_01_prompt.png"><img width="400" alt="gpt_instruct_experiment_01_prompt02" src="assets/gpt_instruct_experiment_01_prompt02.png"> 
+
+I also tried to write some prompts by following TJ’s steps.
+
+<img width="800" alt="gpt_instruct_experiment_01_knowledge" src="assets/gpt_instruct_experiment_01_knowledge.png">
+
+It’s also interesting to see that we can add our own knowledge data base into this small LLM. I will definitely experiment it by adding other information later on.  
+
+<img width="300" alt="gpt_instruct_rag_experiment_01_prompt" src="assets/gpt_instruct_rag_experiment_01_prompt.png"><img width="300" alt="gpt_instruct_rag_experiment_01_prompt02" src="assets/gpt_instruct_rag_experiment_01_prompt02.png"><img width="300" alt="gpt_instruct_rag_experiment_01_prompt03" src="assets/gpt_instruct_rag_experiment_01_prompt03.png">
+
+By trying to add the instruction into the prompt, it’s so exciting to see the machine follows my instruction exactly. 
+
+<img width="800" alt="gpt_instruct_rag_variable_experiment_01" src="assets/gpt_instruct_rag_variable_experiment_01.png">
+
+After adding two variables, and posing onto postman, it works perfectly!
+
+
+
+
 # Week8: Progress Report
 
 ### **Week of 10/19/2024**
