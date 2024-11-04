@@ -4,11 +4,11 @@
 
 I followed TJ’s amazing tutorial and have finished the four gpt experiments as showing below.
 
-<img width="800" alt="gpt experiment_01_number slider" src="assets/gpt experiment_01_number slider.png"> 
+<img width="800" alt="gpt experiment_01_number slider" src="assets/gpt_experiment_01_number_slider.png"> 
 
 I first played with number slider to see the results it effects.
 
-<img width="400" alt="gpt experiment_01_greeting text" src="assets/gpt experiment_01_greeting text.png"><img width="400" alt="gpt gpt experiment_01_greeting text02" src="assets/gpt experiment_01_greeting text02.png">
+<img width="400" alt="gpt experiment_01_greeting text" src="assets/gpt_experiment_01_greeting_text.png"><img width="400" alt="gpt gpt experiment_01_greeting text02" src="assets/gpt_experiment_01_greeting_text02.png">
 
 And then, I added the greeting text to the demo page, which is really fun to do.
 
