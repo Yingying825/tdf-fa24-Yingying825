@@ -1,3 +1,50 @@
+# Week10: Progress Report
+
+### **Week of 11/02/2024**
+
+### **Project Setup and Goal Definition**
+
+I began by defining the primary goal of my project: to create an AI mentor called MentorMate that could support students in learning complex technology concepts, adjusting responses to each user’s experience level. I chose the Triceratops challenge level, which allowed me to experiment with foundational LLM features like model selection, temperature adjustments, and retrieval-augmented generation (RAG). I planned out the sequence of experiments to be conducted over the week.
+
+**Experiment 1 – Model Selection and Temperature Adjustment**
+
+To start, I added greeting messages to make MentorMate feel welcoming. I then explored how different models (GPT-4o and GPT-4o Mini) and temperature settings affected response style and detail. Higher temperatures produced creative, open-ended responses suitable for brainstorming, while lower temperatures resulted in concise, factual answers—useful for more straightforward guidance. This experiment laid the groundwork for MentorMate’s flexibility across user needs.
+
+**Experiment 2 – Instructional Prompts for Tone and Focus**
+
+I integrated instructional prompts to adjust MentorMate’s tone based on the user’s background. I tested responses at different temperatures, finding that lower temperatures made answers more focused and to-the-point, while higher temperatures allowed for a conversational, engaging style. This experiment taught me how prompts could guide MentorMate’s tone to suit different learning levels.
+
+**Experiment 3 – Adding the Knowledge Base with RAG**
+
+<img width="800" alt="token-based chunk" src="assets/token-based chunk.png"> 
+
+I enriched MentorMate’s responses by adding my weekly reports to the knowledge base and using RAG to retrieve specific content. Testing various chunk sizes and similarity thresholds, I optimized retrieval settings to ensure responses were contextually relevant and grounded in real-world examples. This addition allowed MentorMate to pull practical insights from my experiences, enhancing the depth and relevance of its answers.
+
+**Experiment 4 – Contextual Variables for Location and Time**
+
+I added variables for Location and Time, setting them to UC Berkeley and 2024. Initially, responses were generic, but by refining the prompts to reference the knowledge base, MentorMate’s answers became more grounded in real-life context. This allowed MentorMate to offer responses connected to specific projects and challenges, adding an experience-based layer to its guidance.
+
+**Experiment 5 – Final Integration and Refinement of MentorMate**
+
+<img width="300" alt="diagram" src="assets/diagram.png"><img width="300" alt="prompt adjustment" src="assets/prompt adjustment.png"><img width="300" alt="after adjusting_davanced" src="assets/after adjusting_davanced.png"> 
+
+I brought everything together to complete MentorMate. I added a custom greeting message to introduce MentorMate as a supportive guide and integrated variables for audience level and response depth to provide tailored responses. Testing with a question on parametric design, MentorMate adapted answers for different skill levels, even referencing my phone stand project from weekly reports. These adjustments made MentorMate’s responses feel both practical and personal, enhancing its role as a mentorship tool.
+
+**Final Review and Speculations**
+
+<img width="300" alt="Speculation1" src="assets/Speculation1.jpeg"><img width="300" alt="Speculation2" src="assets/Speculation2.jpeg"><img width="300" alt="Speculation3" src="assets/Speculation3.jpeg"> 
+
+I conducted a final review, ensuring consistency in MentorMate’s responses across user levels. I also reflected on the broader implications of this project, speculating on how AI mentors like MentorMate could shift cultural expectations in education and engineering, as well as how AI might train and improve future AI systems. These reflections emphasized the potential of MentorMate as a model for accessible, personalized mentorship.
+
+**Conclusion**
+
+<img width="800" alt="Speculation4" src="assets/Speculation4.jpeg"> 
+
+This week-long project demonstrated the power of systems thinking and LLM customization in creating a responsive AI mentor. Through each experiment, MentorMate evolved into a tool capable of delivering personalized, relevant guidance for diverse learning levels, showcasing AI’s potential as both a mentor and collaborative partner in education.
+
+
+
+
 # Week9: Progress Report
 
 ### **Week of 10/26/2024**
