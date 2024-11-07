@@ -26,7 +26,9 @@ I added variables for Location and Time, setting them to UC Berkeley and 2024. I
 
 **Experiment 5 – Final Integration and Refinement of MentorMate**
 
-<img width="300" alt="diagram" src="assets/diagram.png"><img width="300" alt="prompt adjustment" src="assets/prompt adjustment.png"><img width="300" alt="after adjusting_davanced" src="assets/after adjusting_davanced.png"> 
+<img width="600" alt="diagram" src="assets/diagram.png">
+<img width="600" alt="prompt adjustment" src="assets/prompt_adjustment.png">
+<img width="600" alt="after adjusting_davanced" src="assets/after_adjusting_davanced.png"> 
 
 I brought everything together to complete MentorMate. I added a custom greeting message to introduce MentorMate as a supportive guide and integrated variables for audience level and response depth to provide tailored responses. Testing with a question on parametric design, MentorMate adapted answers for different skill levels, even referencing my phone stand project from weekly reports. These adjustments made MentorMate’s responses feel both practical and personal, enhancing its role as a mentorship tool.
 
