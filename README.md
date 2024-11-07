@@ -40,7 +40,7 @@ I conducted a final review, ensuring consistency in MentorMate’s responses acr
 
 **Conclusion**
 
-<img width="800" alt="Speculation4" src="assets/Speculation4.jpeg"> 
+<img width="600" alt="Speculation4" src="assets/Speculation4.jpeg"> 
 
 This week-long project demonstrated the power of systems thinking and LLM customization in creating a responsive AI mentor. Through each experiment, MentorMate evolved into a tool capable of delivering personalized, relevant guidance for diverse learning levels, showcasing AI’s potential as both a mentor and collaborative partner in education.
 
