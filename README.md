@@ -16,7 +16,7 @@ I integrated instructional prompts to adjust MentorMate’s tone based on the us
 
 **Experiment 3 – Adding the Knowledge Base with RAG**
 
-<img width="800" alt="token-based chunk" src="assets/token-based chunk.png"> 
+<img width="800" alt="token-based chunk" src="assets/token-based_chunk.png"> 
 
 I enriched MentorMate’s responses by adding my weekly reports to the knowledge base and using RAG to retrieve specific content. Testing various chunk sizes and similarity thresholds, I optimized retrieval settings to ensure responses were contextually relevant and grounded in real-world examples. This addition allowed MentorMate to pull practical insights from my experiences, enhancing the depth and relevance of its answers.
 
