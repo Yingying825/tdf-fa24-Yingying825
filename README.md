@@ -7,7 +7,7 @@ This week was particularly enriching due to the Stanford AR/VR hackathon, which 
 On a personal note, I ventured into the technical aspect of 3D garment models by tackling the export and import of 3D model assets into Unity. With no straightforward tutorials available, I relied on self-guided exploration and iterative testing to understand and master this workflow. Overcoming this challenge was highly rewarding, as it not only enhanced my technical proficiency but also prepared me to handle similar tasks more efficiently in future projects.
 
 <img width="400" alt="3d_garment" src="assets/3d_garment.jpeg"> 
-<img width="400" alt="3d_garment2" src="assets/3d_garment2.jpeg"> 
+<img width="400" alt="3d_garment2" src="assets/3d garment2.jpeg"> 
 
 
 
