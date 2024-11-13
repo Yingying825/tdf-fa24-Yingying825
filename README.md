@@ -8,6 +8,20 @@ On a personal note, I ventured into the technical aspect of 3D garment models by
 
 <img width="400" alt="3d_garment" src="assets/3d_garment.jpeg"> <img width="400" alt="3d_garment2" src="assets/3d garment2.jpeg"> 
 
+Individual Contributions and Learning:
+
+Technical Skills Gained: I tackled the challenge of exporting and importing 3D model assets into Unity. This task required self-learning and experimentation, resulting in a successful integration of 3D models into our project.
+Support to Peers: I helped a classmate secure a reservation for the laser cut machines, facilitating their project progress and reinforcing my commitment to supporting my peers.
+
+Reflection on Learning and Growth:
+
+Insights: The hackathon was not only a test of our technical skills but also an excellent opportunity to experience the pressure and excitement of competitive innovation. It offered insights into real-world applications of AR technology.
+Future Applications: The skills developed this week, particularly in Unity and 3D modeling, are invaluable and will be applied to future projects, potentially enhancing our final project’s interactive and visual components.
+
+Plan for Upcoming Week:
+
+Objectives: To build on the momentum from the hackathon by further refining our AR project, integrating more complex features based on the feedback received.
+Personal Goals: To continue supporting my team’s efforts in our final project discussions, ensuring that all team members feel involved and valued.
 
 
 # Week10: Progress Report
