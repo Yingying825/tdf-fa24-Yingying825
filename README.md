@@ -1,3 +1,16 @@
+# Week11: Progress Report
+
+### **Week of 11/09/2024**
+
+This week was particularly enriching due to the Stanford AR/VR hackathon, which provided a fantastic opportunity to explore innovative augmented reality technologies alongside my talented teammates. We engaged with various advanced AR headsets and successfully developed an AR closet project, which allowed us to experiment with practical applications of AR in everyday life. The collaboration and quick problem-solving exhibited by the team under the hackathon’s time constraints were impressive and contributed significantly to our project's success.
+
+On a personal note, I ventured into the technical aspect of 3D garment models by tackling the export and import of 3D model assets into Unity. With no straightforward tutorials available, I relied on self-guided exploration and iterative testing to understand and master this workflow. Overcoming this challenge was highly rewarding, as it not only enhanced my technical proficiency but also prepared me to handle similar tasks more efficiently in future projects.
+
+<img width="400" alt="3d_garment" src="assets/3d_garment.jpeg"> 
+<img width="400" alt="3d_garment2" src="assets/3d_garment2.jpeg"> 
+
+
+
 # Week10: Progress Report
 
 ### **Week of 11/02/2024**
