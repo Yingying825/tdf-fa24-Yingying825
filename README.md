@@ -1,3 +1,25 @@
+# Week12: Progress Report
+
+### **Week of 11/016/2024**
+
+I started researching about the function of comfy ui and I realized the significance of it.
+Besides that, I also looked at a lot of interactive installations as both technical and visual references. And then I generated two posters for the Monday class. 
+
+<img width="400" alt="emotion" src="assets/emotion.jpg"> <img width="400" alt="expression" src="assets/expression.jpg"> 
+
+And then I started researching about how to integrated open cv into unreal engine in order to control meta human. 
+
+<img width="400" alt="research" src="assets/research.png"> 
+
+After the overall technical research, i figured out the possible workflow for our project. 
+<img width="400" alt="1_diagram" src="assets/1_diagram.png"> 
+
+We also had several group meetings to help us settle down the ideas.
+
+
+
+
+
 # Week11: Progress Report
 
 ### **Week of 11/09/2024**
