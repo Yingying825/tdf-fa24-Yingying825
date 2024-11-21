@@ -9,10 +9,10 @@ Besides that, I also looked at a lot of interactive installations as both techni
 
 And then I started researching about how to integrated open cv into unreal engine in order to control meta human. 
 
-<img width="400" alt="research" src="assets/research.png"> 
+<img width="800" alt="research" src="assets/research.png"> 
 
 After the overall technical research, i figured out the possible workflow for our project. 
-<img width="400" alt="1_diagram" src="assets/1_diagram.png"> 
+<img width="800" alt="1_diagram" src="assets/1_diagram.png"> 
 
 We also had several group meetings to help us settle down the ideas.
 
